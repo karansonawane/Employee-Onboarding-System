@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="42a5b83d8300121066f5f4a6feaad382" label="Employee" max_length="40" name="x_869126_empobsys_employee" type="collection">
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Phone Number" max_length="10" name="phone_number" type="string"/>
+        <element choice="1" label="Position" max_length="40" name="position" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Software Developer" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="System Engineer" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Application Developer" sequence="0" value="0"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="first_name" type="string"/>
         <index name="index">
             <element name="sys_class_name"/>

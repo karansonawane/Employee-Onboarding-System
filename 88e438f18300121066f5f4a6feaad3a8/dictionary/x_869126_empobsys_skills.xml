@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="09a2057d8340121066f5f4a6feaad34f" label="Skills" max_length="40" name="x_869126_empobsys_skills" type="collection">
+        <element label="Skill" max_length="40" name="skill" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Years of Experience" max_length="2" name="years_of_experience" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

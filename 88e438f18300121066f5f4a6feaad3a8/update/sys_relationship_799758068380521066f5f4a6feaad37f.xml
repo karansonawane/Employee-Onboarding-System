@@ -3,9 +3,9 @@
         <advanced>false</advanced>
         <apply_to/>
         <basic_apply_to>x_869126_empobsys_employee</basic_apply_to>
-        <basic_query_from>x_869126_empobsys_skills</basic_query_from>
+        <basic_query_from>x_869126_empobsys_work_experience</basic_query_from>
         <insert_callback/>
-        <name>Skills</name>
+        <name>Work Experience</name>
         <query_from/>
         <query_with><![CDATA[(function refineQuery(current, parent) {
 
@@ -18,16 +18,16 @@
         <simple_reference>false</simple_reference>
         <sys_class_name>sys_relationship</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-16 15:58:34</sys_created_on>
-        <sys_id>4ca18df98340121066f5f4a6feaad394</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Skills</sys_name>
+        <sys_created_on>2024-08-17 07:34:00</sys_created_on>
+        <sys_id>799758068380521066f5f4a6feaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Work Experience</sys_name>
         <sys_package display_value="Employee Onboarding System" source="x_869126_empobsys">88e438f18300121066f5f4a6feaad3a8</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
-        <sys_update_name>sys_relationship_4ca18df98340121066f5f4a6feaad394</sys_update_name>
+        <sys_update_name>sys_relationship_799758068380521066f5f4a6feaad37f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-17 06:58:20</sys_updated_on>
+        <sys_updated_on>2024-08-17 07:34:00</sys_updated_on>
     </sys_relationship>
-    <sys_translated_text action="delete_multiple" query="documentkey=4ca18df98340121066f5f4a6feaad394"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=799758068380521066f5f4a6feaad37f"/>
 </record_update>

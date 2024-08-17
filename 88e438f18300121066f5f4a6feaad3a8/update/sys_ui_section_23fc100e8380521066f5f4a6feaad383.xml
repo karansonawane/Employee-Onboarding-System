@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Current Address" section_id="23fc100e8380521066f5f4a6feaad383" sys_domain="global" table="x_869126_empobsys_employee" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_address</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-17 08:04:39</sys_created_on>
+            <sys_id>c99f5cce8380521066f5f4a6feaad38f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Current Address" display_value="Current Address" name="x_869126_empobsys_employee" sys_domain="global" view="Default view">23fc100e8380521066f5f4a6feaad383</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-17 08:04:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_state</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-17 08:04:39</sys_created_on>
+            <sys_id>419f5cce8380521066f5f4a6feaad390</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Current Address" display_value="Current Address" name="x_869126_empobsys_employee" sys_domain="global" view="Default view">23fc100e8380521066f5f4a6feaad383</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-17 08:04:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_city</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-17 08:04:39</sys_created_on>
+            <sys_id>c59f5cce8380521066f5f4a6feaad390</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Current Address" display_value="Current Address" name="x_869126_empobsys_employee" sys_domain="global" view="Default view">23fc100e8380521066f5f4a6feaad383</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-17 08:04:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_zip</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-17 08:04:39</sys_created_on>
+            <sys_id>4d9f5cce8380521066f5f4a6feaad390</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Current Address" display_value="Current Address" name="x_869126_empobsys_employee" sys_domain="global" view="Default view">23fc100e8380521066f5f4a6feaad383</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-17 08:04:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_1</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-17 08:04:39</sys_created_on>
+            <sys_id>c19f5cce8380521066f5f4a6feaad391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Current Address" display_value="Current Address" name="x_869126_empobsys_employee" sys_domain="global" view="Default view">23fc100e8380521066f5f4a6feaad383</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-17 08:04:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-17 08:04:39</sys_created_on>
+            <sys_id>499f5cce8380521066f5f4a6feaad391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Current Address" display_value="Current Address" name="x_869126_empobsys_employee" sys_domain="global" view="Default view">23fc100e8380521066f5f4a6feaad383</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-17 08:04:39</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>residential_address</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-17 08:04:39</sys_created_on>
+            <sys_id>cd9f5cce8380521066f5f4a6feaad391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Current Address" display_value="Current Address" name="x_869126_empobsys_employee" sys_domain="global" view="Default view">23fc100e8380521066f5f4a6feaad383</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-17 08:04:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>residential_state</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-17 08:04:39</sys_created_on>
+            <sys_id>459f5cce8380521066f5f4a6feaad392</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Current Address" display_value="Current Address" name="x_869126_empobsys_employee" sys_domain="global" view="Default view">23fc100e8380521066f5f4a6feaad383</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-17 08:04:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>residential_city</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-17 08:04:39</sys_created_on>
+            <sys_id>c99f5cce8380521066f5f4a6feaad392</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Current Address" display_value="Current Address" name="x_869126_empobsys_employee" sys_domain="global" view="Default view">23fc100e8380521066f5f4a6feaad383</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-17 08:04:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>residential_zip</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-17 08:04:39</sys_created_on>
+            <sys_id>419f5cce8380521066f5f4a6feaad393</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Current Address" display_value="Current Address" name="x_869126_empobsys_employee" sys_domain="global" view="Default view">23fc100e8380521066f5f4a6feaad383</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-17 08:04:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Current Address</caption>
+            <header>false</header>
+            <name>x_869126_empobsys_employee</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-17 07:53:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23fc100e8380521066f5f4a6feaad383</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_869126_empobsys_employee</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Onboarding System" source="x_869126_empobsys">88e438f18300121066f5f4a6feaad3a8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
+            <sys_update_name>sys_ui_section_23fc100e8380521066f5f4a6feaad383</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-17 07:53:22</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

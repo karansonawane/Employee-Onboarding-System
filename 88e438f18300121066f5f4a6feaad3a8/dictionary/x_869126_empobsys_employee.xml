@@ -22,6 +22,8 @@
         <element label="State" mandatory="true" max_length="40" name="residential_state" type="string"/>
         <element label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Added Skills and Work Experience?" max_length="40" name="added_skills_and_work_experience" type="boolean"/>
+        <element label="All the filled information is correct?" max_length="40" name="all_the_filled_information_is_correct" type="boolean"/>
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element label="Zip" mandatory="true" max_length="6" name="current_zip" type="string"/>
         <element label="Phone Number" mandatory="true" max_length="10" name="phone_number" type="string"/>

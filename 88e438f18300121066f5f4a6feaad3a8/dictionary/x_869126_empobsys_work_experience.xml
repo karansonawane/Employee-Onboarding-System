@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f532544e8340521066f5f4a6feaad334" label="Work Experience" max_length="40" name="x_869126_empobsys_work_experience" type="collection">
+        <element label="Company" mandatory="true" max_length="40" name="company" type="string"/>
+        <element label="Job Title" mandatory="true" max_length="40" name="job_title" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="To" mandatory="true" max_length="40" name="to" type="glide_date"/>
+        <element label="From" mandatory="true" max_length="40" name="from" type="glide_date"/>
+        <element label="Parent" mandatory="true" max_length="32" name="parent" reference="x_869126_empobsys_employee" type="reference"/>
+        <element label="I currently work here" max_length="40" name="i_currently_work_here" type="boolean"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

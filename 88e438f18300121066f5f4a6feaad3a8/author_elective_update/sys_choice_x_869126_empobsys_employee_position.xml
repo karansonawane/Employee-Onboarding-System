@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="position" table="x_869126_empobsys_employee" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>position</element>
+            <name>x_869126_empobsys_employee</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-16 15:29:58</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>position</sys_name>
+            <sys_package display_value="Employee Onboarding System" source="x_869126_empobsys">88e438f18300121066f5f4a6feaad3a8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
+            <sys_update_name>sys_choice_x_869126_empobsys_employee_position</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-16 15:29:58</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application Developer</label>
+            <language>en</language>
+            <name>x_869126_empobsys_employee</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-16 15:29:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-16 15:29:58</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Software Developer</label>
+            <language>en</language>
+            <name>x_869126_empobsys_employee</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-16 15:30:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-16 15:30:28</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System Engineer</label>
+            <language>en</language>
+            <name>x_869126_empobsys_employee</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-16 15:31:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-16 15:31:20</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

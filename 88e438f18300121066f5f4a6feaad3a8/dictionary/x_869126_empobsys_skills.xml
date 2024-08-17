@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="09a2057d8340121066f5f4a6feaad34f" label="Skills" max_length="40" name="x_869126_empobsys_skills" type="collection">
+        <element label="Skill" mandatory="true" max_length="40" name="skill" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Years of Experience" mandatory="true" max_length="2" name="years_of_experience" type="string"/>
+        <element attributes="encode_utf8=false" label="Parent" mandatory="true" max_length="32" name="parent" reference="x_869126_empobsys_employee" reference_floats="true" reference_qual="javascript:'sys_id!='+current.sys_id" type="reference" use_reference_qualifier="advanced"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

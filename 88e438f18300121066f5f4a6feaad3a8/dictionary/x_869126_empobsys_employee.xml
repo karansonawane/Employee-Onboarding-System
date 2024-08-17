@@ -6,10 +6,23 @@
         <element label="Residential Address" mandatory="true" max_length="100" name="residential_address" type="string"/>
         <element label="City" mandatory="true" max_length="40" name="residential_city" type="string"/>
         <element label="Current Address" mandatory="true" max_length="100" name="current_address" type="string"/>
+        <element choice="3" default="new" label="Application State" max_length="40" name="application_state" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="On Boarding" sequence="7" value="on_boarding"/>
+                <element inactive_on_update="false" label="Hold" sequence="3" value="hold"/>
+                <element inactive_on_update="false" label="Background Verification" sequence="6" value="background_verification"/>
+                <element inactive_on_update="false" label="Interview" sequence="5" value="interview"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Closed" sequence="8" value="closed"/>
+                <element inactive_on_update="false" label="Requested" sequence="1" value="requested"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+            </choice>
+        </element>
         <element label="State" mandatory="true" max_length="40" name="residential_state" type="string"/>
         <element label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element label="Zip" mandatory="true" max_length="6" name="current_zip" type="string"/>
         <element label="Phone Number" mandatory="true" max_length="10" name="phone_number" type="string"/>
         <element choice="1" label="Position" mandatory="true" max_length="40" name="position" type="choice">
@@ -22,6 +35,7 @@
         <element attributes="edge_encryption_enabled=true" label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
         <element label="Residential Address is same as Current" max_length="40" name="u_boolean_1" type="boolean"/>
         <element label="Resume/CV" mandatory="true" max_length="40" name="resume_cv" type="file_attachment"/>
+        <element label="Middle Name" max_length="40" name="middle_name" type="string"/>
         <element label="Zip" mandatory="true" max_length="6" name="residential_zip" type="string"/>
         <index name="index">
             <element name="sys_class_name"/>

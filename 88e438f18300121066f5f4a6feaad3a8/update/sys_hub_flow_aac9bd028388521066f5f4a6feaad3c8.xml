@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=85000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=79837000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,13 +15,13 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>updateemployeeapplicationstate</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Employee Record","reference":"x_869126_empobsys_employee","reference_display":"Employee","type":"reference","base_type":"reference","usedInstances":{"18115f67-afb6-4bb0-9f56-cbab33ec5071":["record"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.added_skills_and_work_experience","label":"Trigger - Record Created➛Employee Record➛Added Skills and Work Experience?","reference":"","reference_display":"Added Skills and Work Experience?","type":"boolean","base_type":"boolean","parent_table_name":"x_869126_empobsys_employee","column_name":"added_skills_and_work_experience","usedInstances":{}},{"name":"Created_1.current.position","label":"Trigger - Record Created➛Employee Record➛Position","reference":"","reference_display":"Position","type":"choice","base_type":"choice","parent_table_name":"x_869126_empobsys_employee","column_name":"position","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"missing":false,"rawLabel":"-- None --","selected":false,"value":""},{"used":false,"label":"Application Developer","image":"","reference":false,"missing":false,"rawLabel":"Application Developer","selected":false,"value":"0","parameters":{"name":"x_869126_empobsys_employee"}},{"used":false,"label":"Software Developer","image":"","reference":false,"missing":false,"rawLabel":"Software Developer","selected":false,"value":"1","parameters":{"name":"x_869126_empobsys_employee"}},{"used":false,"label":"System Engineer","image":"","reference":false,"missing":false,"rawLabel":"System Engineer","selected":false,"value":"2","parameters":{"name":"x_869126_empobsys_employee"}}],"usedInstances":{"7c348a77-41dc-4985-b144-113398f87943":[null]}},{"name":"Created_1.current.last_name","label":"Trigger - Record Created➛Employee Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_869126_empobsys_employee","column_name":"last_name","usedInstances":{"7c348a77-41dc-4985-b144-113398f87943":[null]}},{"name":"Created_1.current.first_name","label":"Trigger - Record Created➛Employee Record➛First Name","reference":"","reference_display":"First Name","type":"string","base_type":"string","parent_table_name":"x_869126_empobsys_employee","column_name":"first_name","usedInstances":{"7c348a77-41dc-4985-b144-113398f87943":[null]}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Employee Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_869126_empobsys_employee","column_name":"number","usedInstances":{"7c348a77-41dc-4985-b144-113398f87943":["ah_subject"]}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Employee Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_869126_empobsys_employee","column_name":"email","usedInstances":{"7c348a77-41dc-4985-b144-113398f87943":["ah_to"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Employee Record","reference":"x_869126_empobsys_employee","reference_display":"Employee","type":"reference","base_type":"reference","usedInstances":{"18115f67-afb6-4bb0-9f56-cbab33ec5071":["record"],"7c348a77-41dc-4985-b144-113398f87943":["record"],"c3fff556-9499-4058-8fb6-4c7bcfb7b827":["record"],"360e9a28-2fa3-4acf-b72c-d72cc600f730":["record"]},"attributes":{}}]</label_cache>
         <master_snapshot>271a79428388521066f5f4a6feaad334</master_snapshot>
         <name>Update-Employee-Application-State</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>f31a79428388521066f5f4a6feaad376</remote_trigger_id>
+        <remote_trigger_id>b667b9de8380121066f5f4a6feaad369</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>aac9bd028388521066f5f4a6feaad3c8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Update-Employee-Application-State</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Onboarding System" source="x_869126_empobsys">88e438f18300121066f5f4a6feaad3a8</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
         <sys_update_name>sys_hub_flow_aac9bd028388521066f5f4a6feaad3c8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-17 14:40:15</sys_updated_on>
+        <sys_updated_on>2024-08-18 12:49:29</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=aac9bd028388521066f5f4a6feaad3c8"/>
@@ -63,15 +63,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-17 14:40:15</sys_created_on>
+        <sys_created_on>2024-08-18 09:06:54</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>f31a79428388521066f5f4a6feaad376</sys_id>
+        <sys_id>b667b9de8380121066f5f4a6feaad369</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-17 14:40:15</sys_updated_on>
+        <sys_updated_on>2024-08-18 09:06:54</sys_updated_on>
         <table>x_869126_empobsys_employee</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
@@ -80,14 +80,14 @@
         <identifier>aac9bd028388521066f5f4a6feaad3c8</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-17 14:40:15</sys_created_on>
-        <sys_id>bf1a79428388521066f5f4a6feaad376</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2024-08-18 12:49:28</sys_created_on>
+        <sys_id>0f5ae61283c4121066f5f4a6feaad33d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-17 14:40:15</sys_updated_on>
-        <trigger display_value="">f31a79428388521066f5f4a6feaad376</trigger>
+        <sys_updated_on>2024-08-18 12:49:28</sys_updated_on>
+        <trigger display_value="">b667b9de8380121066f5f4a6feaad369</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=aac9bd028388521066f5f4a6feaad3c8^sys_idNOT INbf1a79428388521066f5f4a6feaad376"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=aac9bd028388521066f5f4a6feaad3c8^sys_idNOT IN0f5ae61283c4121066f5f4a6feaad33d"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=aac9bd028388521066f5f4a6feaad3c8^sys_idNOT IN161a39428388521066f5f4a6feaad347"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -98,10 +98,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-17 14:40:08</sys_created_on>
         <sys_id>161a39428388521066f5f4a6feaad347</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-17 14:40:15</sys_updated_on>
+        <sys_updated_on>2024-08-18 12:49:29</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -116,9 +116,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-17 14:40:08</sys_created_on>
         <sys_id>561a39428388521066f5f4a6feaad348</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-17 14:40:08</sys_updated_on>
+        <sys_updated_on>2024-08-18 09:06:44</sys_updated_on>
         <value>^EQ</value>
         <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
     </sys_variable_value>
@@ -214,14 +214,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-17 14:40:08</sys_created_on>
         <sys_id>1a1ab9028388521066f5f4a6feaad3d4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-17 14:40:15</sys_updated_on>
+        <sys_updated_on>2024-08-18 12:49:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -298,14 +298,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-17 14:40:08</sys_created_on>
         <sys_id>de1a39428388521066f5f4a6feaad341</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-17 14:40:15</sys_updated_on>
+        <sys_updated_on>2024-08-18 12:49:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -321,7 +321,97 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=de1a39428388521066f5f4a6feaad341"/>
     <sys_hub_flow_output action="delete_multiple" query="model=aac9bd028388521066f5f4a6feaad3c8"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=aac9bd028388521066f5f4a6feaad3c8"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=aac9bd028388521066f5f4a6feaad3c8^sys_idNOT IN5e1a39428388521066f5f4a6feaad367"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=aac9bd028388521066f5f4a6feaad3c8^sys_idNOT IN445a261283c4121066f5f4a6feaad3ec,5e1a39428388521066f5f4a6feaad367,986739de8380121066f5f4a6feaad38f,e05a1d1a8300121066f5f4a6feaad346"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update-Employee-Application-State">aac9bd028388521066f5f4a6feaad3c8</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 12:49:16</sys_created_on>
+        <sys_id>445a261283c4121066f5f4a6feaad3ec</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 12:50:21</sys_updated_on>
+        <ui_id>360e9a28-2fa3-4acf-b72c-d72cc600f730</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=445a261283c4121066f5f4a6feaad3ec"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>445a261283c4121066f5f4a6feaad3ec</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 12:49:16</sys_created_on>
+        <sys_id>4c5a261283c4121066f5f4a6feaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 12:49:16</sys_updated_on>
+        <value>x_869126_empobsys_employee</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>445a261283c4121066f5f4a6feaad3ec</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 12:49:16</sys_created_on>
+        <sys_id>885a261283c4121066f5f4a6feaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 12:49:16</sys_updated_on>
+        <value>added_skills_and_work_experience=true</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=445a261283c4121066f5f4a6feaad3ec"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>445a261283c4121066f5f4a6feaad3ec</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 12:49:16</sys_created_on>
+        <sys_id>445a261283c4121066f5f4a6feaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 12:49:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>445a261283c4121066f5f4a6feaad3ec</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 12:49:16</sys_created_on>
+        <sys_id>805a261283c4121066f5f4a6feaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 12:49:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>445a261283c4121066f5f4a6feaad3ec</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 12:49:16</sys_created_on>
+        <sys_id>085a261283c4121066f5f4a6feaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 12:49:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=445a261283c4121066f5f4a6feaad3ec"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=445a261283c4121066f5f4a6feaad3ec"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -338,10 +428,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-17 14:40:08</sys_created_on>
         <sys_id>5e1a39428388521066f5f4a6feaad367</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-17 14:41:40</sys_updated_on>
+        <sys_updated_on>2024-08-18 12:50:21</sys_updated_on>
         <ui_id>18115f67-afb6-4bb0-9f56-cbab33ec5071</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5e1a39428388521066f5f4a6feaad367"/>
@@ -353,10 +443,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-17 14:40:09</sys_created_on>
         <sys_id>1e1a39428388521066f5f4a6feaad36a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-17 14:40:09</sys_updated_on>
-        <value>application_state=requested</value>
+        <sys_updated_on>2024-08-18 09:06:44</sys_updated_on>
+        <value>application_state=saved</value>
         <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -412,9 +502,316 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=5e1a39428388521066f5f4a6feaad367"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=5e1a39428388521066f5f4a6feaad367"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update-Employee-Application-State">aac9bd028388521066f5f4a6feaad3c8</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>fcea768f-11a1-457b-8c14-e39072ff416d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 09:06:44</sys_created_on>
+        <sys_id>986739de8380121066f5f4a6feaad38f</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 12:50:21</sys_updated_on>
+        <ui_id>c3fff556-9499-4058-8fb6-4c7bcfb7b827</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=986739de8380121066f5f4a6feaad38f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>986739de8380121066f5f4a6feaad38f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 09:06:44</sys_created_on>
+        <sys_id>9c6739de8380121066f5f4a6feaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 09:06:44</sys_updated_on>
+        <value>x_869126_empobsys_employee</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>986739de8380121066f5f4a6feaad38f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 09:06:44</sys_created_on>
+        <sys_id>d46739de8380121066f5f4a6feaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 09:06:44</sys_updated_on>
+        <value>application_state=requested</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=986739de8380121066f5f4a6feaad38f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>986739de8380121066f5f4a6feaad38f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 09:06:44</sys_created_on>
+        <sys_id>546739de8380121066f5f4a6feaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 09:06:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>986739de8380121066f5f4a6feaad38f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 09:06:44</sys_created_on>
+        <sys_id>dc6739de8380121066f5f4a6feaad390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 09:06:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>986739de8380121066f5f4a6feaad38f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 09:06:44</sys_created_on>
+        <sys_id>906739de8380121066f5f4a6feaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 09:06:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=986739de8380121066f5f4a6feaad38f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=986739de8380121066f5f4a6feaad38f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update-Employee-Application-State">aac9bd028388521066f5f4a6feaad3c8</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>fcea768f-11a1-457b-8c14-e39072ff416d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:47</sys_created_on>
+        <sys_id>e05a1d1a8300121066f5f4a6feaad346</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 12:50:22</sys_updated_on>
+        <ui_id>7c348a77-41dc-4985-b144-113398f87943</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e05a1d1a8300121066f5f4a6feaad346"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e05a1d1a8300121066f5f4a6feaad346</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:47</sys_created_on>
+        <sys_id>245a1d1a8300121066f5f4a6feaad34a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:47</sys_updated_on>
+        <value>x_869126_empobsys_employee</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e05a1d1a8300121066f5f4a6feaad346</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:47</sys_created_on>
+        <sys_id>e85a1d1a8300121066f5f4a6feaad349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:47</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e05a1d1a8300121066f5f4a6feaad346"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>e05a1d1a8300121066f5f4a6feaad346</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:47</sys_created_on>
+        <sys_id>e05a1d1a8300121066f5f4a6feaad349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:c3ec2bc0-c567-445c-aa32-89f0fb79fc90}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:c3ec2bc0-c567-445c-aa32-89f0fb79fc90}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Employee Record &amp;gt; First Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_c3ec2bc0-c567-445c-aa32-89f0fb79fc90" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:72924df0-ace7-47a4-bb09-e837840aa7f7}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:72924df0-ace7-47a4-bb09-e837840aa7f7}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Employee Record &amp;gt; Last Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Last Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_72924df0-ace7-47a4-bb09-e837840aa7f7" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;Thank you for your application to the post of&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:14fe135e-2ab7-4b97-9108-df003712e254}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:14fe135e-2ab7-4b97-9108-df003712e254}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Employee Record &amp;gt; Position"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Position&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_14fe135e-2ab7-4b97-9108-df003712e254" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;strong&gt;&lt;em&gt;&lt;span style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;Note: Please fill the Skills and Work Experience details from the related fields, If already done please ignore this note.&lt;/span&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;Yours Sincerely,&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;OnBoard System.&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>e05a1d1a8300121066f5f4a6feaad346</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:47</sys_created_on>
+        <sys_id>685a1d1a8300121066f5f4a6feaad349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.number}} | Application Submitted Successfully</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>e05a1d1a8300121066f5f4a6feaad346</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:47</sys_created_on>
+        <sys_id>285a1d1a8300121066f5f4a6feaad348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e05a1d1a8300121066f5f4a6feaad346</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:47</sys_created_on>
+        <sys_id>205a1d1a8300121066f5f4a6feaad349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e05a1d1a8300121066f5f4a6feaad346</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:47</sys_created_on>
+        <sys_id>a45a1d1a8300121066f5f4a6feaad349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e05a1d1a8300121066f5f4a6feaad346"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e05a1d1a8300121066f5f4a6feaad346"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=aac9bd028388521066f5f4a6feaad3c8"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=aac9bd028388521066f5f4a6feaad3c8"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=aac9bd028388521066f5f4a6feaad3c8"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=aac9bd028388521066f5f4a6feaad3c8^sys_idNOT IN946739de8380121066f5f4a6feaad386"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">586739de8380121066f5f4a6feaad385</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update-Employee-Application-State">aac9bd028388521066f5f4a6feaad3c8</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 09:06:44</sys_created_on>
+        <sys_id>946739de8380121066f5f4a6feaad386</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 12:49:29</sys_updated_on>
+        <ui_id>fcea768f-11a1-457b-8c14-e39072ff416d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=946739de8380121066f5f4a6feaad386"/>
+    <sys_element_mapping action="delete_multiple" query="id=946739de8380121066f5f4a6feaad386"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>946739de8380121066f5f4a6feaad386</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 09:06:44</sys_created_on>
+        <sys_id>906739de8380121066f5f4a6feaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 09:06:44</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.added_skills_and_work_experience}}=true</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=946739de8380121066f5f4a6feaad386"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=946739de8380121066f5f4a6feaad386"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=aac9bd028388521066f5f4a6feaad3c8^sys_idNOT INa45a1d1a8300121066f5f4a6feaad34d,e05a1d1a8300121066f5f4a6feaad34d,e85a1d1a8300121066f5f4a6feaad34c"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>aac9bd028388521066f5f4a6feaad3c8</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.position}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:47</sys_created_on>
+        <sys_id>a45a1d1a8300121066f5f4a6feaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:47</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>14fe135e-2ab7-4b97-9108-df003712e254</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>aac9bd028388521066f5f4a6feaad3c8</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:47</sys_created_on>
+        <sys_id>e05a1d1a8300121066f5f4a6feaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:47</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>72924df0-ace7-47a4-bb09-e837840aa7f7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>aac9bd028388521066f5f4a6feaad3c8</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:47</sys_created_on>
+        <sys_id>e85a1d1a8300121066f5f4a6feaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:47</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c3ec2bc0-c567-445c-aa32-89f0fb79fc90</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=aac9bd028388521066f5f4a6feaad3c8"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_aac9bd028388521066f5f4a6feaad3c8^sys_idNOT IN921a39428388521066f5f4a6feaad344,de1a39428388521066f5f4a6feaad340"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -480,7 +877,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>updateemployeeapplicationstate</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Employee Record","reference":"x_869126_empobsys_employee","reference_display":"Employee","type":"reference","base_type":"reference","usedInstances":{"18115f67-afb6-4bb0-9f56-cbab33ec5071":["record"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.added_skills_and_work_experience","label":"Trigger - Record Created➛Employee Record➛Added Skills and Work Experience?","reference":"","reference_display":"Added Skills and Work Experience?","type":"boolean","base_type":"boolean","parent_table_name":"x_869126_empobsys_employee","column_name":"added_skills_and_work_experience","usedInstances":{}},{"name":"Created_1.current.position","label":"Trigger - Record Created➛Employee Record➛Position","reference":"","reference_display":"Position","type":"choice","base_type":"choice","parent_table_name":"x_869126_empobsys_employee","column_name":"position","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"missing":false,"rawLabel":"-- None --","selected":false,"value":""},{"used":false,"label":"Application Developer","image":"","reference":false,"missing":false,"rawLabel":"Application Developer","selected":false,"value":"0","parameters":{"name":"x_869126_empobsys_employee"}},{"used":false,"label":"Software Developer","image":"","reference":false,"missing":false,"rawLabel":"Software Developer","selected":false,"value":"1","parameters":{"name":"x_869126_empobsys_employee"}},{"used":false,"label":"System Engineer","image":"","reference":false,"missing":false,"rawLabel":"System Engineer","selected":false,"value":"2","parameters":{"name":"x_869126_empobsys_employee"}}],"usedInstances":{"7c348a77-41dc-4985-b144-113398f87943":[null]}},{"name":"Created_1.current.last_name","label":"Trigger - Record Created➛Employee Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_869126_empobsys_employee","column_name":"last_name","usedInstances":{"7c348a77-41dc-4985-b144-113398f87943":[null]}},{"name":"Created_1.current.first_name","label":"Trigger - Record Created➛Employee Record➛First Name","reference":"","reference_display":"First Name","type":"string","base_type":"string","parent_table_name":"x_869126_empobsys_employee","column_name":"first_name","usedInstances":{"7c348a77-41dc-4985-b144-113398f87943":[null]}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Employee Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_869126_empobsys_employee","column_name":"number","usedInstances":{"7c348a77-41dc-4985-b144-113398f87943":["ah_subject"]}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Employee Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_869126_empobsys_employee","column_name":"email","usedInstances":{"7c348a77-41dc-4985-b144-113398f87943":["ah_to"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Employee Record","reference":"x_869126_empobsys_employee","reference_display":"Employee","type":"reference","base_type":"reference","usedInstances":{"18115f67-afb6-4bb0-9f56-cbab33ec5071":["record"],"7c348a77-41dc-4985-b144-113398f87943":["record"],"c3fff556-9499-4058-8fb6-4c7bcfb7b827":["record"],"360e9a28-2fa3-4acf-b72c-d72cc600f730":["record"]},"attributes":{}}]</label_cache>
         <master>true</master>
         <name>Update-Employee-Application-State</name>
         <natlang/>
@@ -497,7 +894,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>271a79428388521066f5f4a6feaad334</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -505,7 +902,7 @@
         <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-17 14:40:14</sys_updated_on>
+        <sys_updated_on>2024-08-18 12:49:27</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=271a79428388521066f5f4a6feaad334"/>
@@ -520,10 +917,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-17 14:40:15</sys_created_on>
         <sys_id>771a79428388521066f5f4a6feaad36b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-17 14:40:15</sys_updated_on>
+        <sys_updated_on>2024-08-18 12:49:28</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -552,9 +949,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-17 14:40:15</sys_created_on>
         <sys_id>bb1a79428388521066f5f4a6feaad36c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-17 14:40:15</sys_updated_on>
+        <sys_updated_on>2024-08-18 09:06:53</sys_updated_on>
         <value>^EQ</value>
         <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
     </sys_variable_value>
@@ -577,7 +974,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -636,14 +1033,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-17 14:40:14</sys_created_on>
         <sys_id>e71a79428388521066f5f4a6feaad336</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-17 14:40:14</sys_updated_on>
+        <sys_updated_on>2024-08-18 12:49:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -661,7 +1058,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -720,14 +1117,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-17 14:40:14</sys_created_on>
         <sys_id>f31a79428388521066f5f4a6feaad359</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-17 14:40:14</sys_updated_on>
+        <sys_updated_on>2024-08-18 12:49:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -743,7 +1140,97 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f31a79428388521066f5f4a6feaad359"/>
     <sys_hub_flow_output action="delete_multiple" query="model=271a79428388521066f5f4a6feaad334"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=271a79428388521066f5f4a6feaad334"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=271a79428388521066f5f4a6feaad334^sys_idNOT IN771a79428388521066f5f4a6feaad369"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=271a79428388521066f5f4a6feaad334^sys_idNOT IN2667b9de8380121066f5f4a6feaad310,771a79428388521066f5f4a6feaad369,7e5aa61283c4121066f5f4a6feaad3df,fe5a5d1a8300121066f5f4a6feaad3d2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update-Employee-Application-State">271a79428388521066f5f4a6feaad334</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>fcea768f-11a1-457b-8c14-e39072ff416d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 09:06:53</sys_created_on>
+        <sys_id>2667b9de8380121066f5f4a6feaad310</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 12:49:27</sys_updated_on>
+        <ui_id>c3fff556-9499-4058-8fb6-4c7bcfb7b827</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2667b9de8380121066f5f4a6feaad310"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2667b9de8380121066f5f4a6feaad310</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 09:06:53</sys_created_on>
+        <sys_id>2267b9de8380121066f5f4a6feaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 09:06:53</sys_updated_on>
+        <value>x_869126_empobsys_employee</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2667b9de8380121066f5f4a6feaad310</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 09:06:53</sys_created_on>
+        <sys_id>6e67b9de8380121066f5f4a6feaad311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 09:06:53</sys_updated_on>
+        <value>application_state=requested</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2667b9de8380121066f5f4a6feaad310"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>2667b9de8380121066f5f4a6feaad310</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 09:06:53</sys_created_on>
+        <sys_id>ea67b9de8380121066f5f4a6feaad311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 09:06:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>2667b9de8380121066f5f4a6feaad310</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 09:06:53</sys_created_on>
+        <sys_id>6667b9de8380121066f5f4a6feaad311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 09:06:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>2667b9de8380121066f5f4a6feaad310</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 09:06:53</sys_created_on>
+        <sys_id>2a67b9de8380121066f5f4a6feaad311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 09:06:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2667b9de8380121066f5f4a6feaad310"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2667b9de8380121066f5f4a6feaad310"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -760,10 +1247,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-17 14:40:15</sys_created_on>
         <sys_id>771a79428388521066f5f4a6feaad369</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-17 14:40:15</sys_updated_on>
+        <sys_updated_on>2024-08-18 12:49:27</sys_updated_on>
         <ui_id>18115f67-afb6-4bb0-9f56-cbab33ec5071</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=771a79428388521066f5f4a6feaad369"/>
@@ -789,10 +1276,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-17 14:40:15</sys_created_on>
         <sys_id>bf1a79428388521066f5f4a6feaad36a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-17 14:40:15</sys_updated_on>
-        <value>application_state=requested</value>
+        <sys_updated_on>2024-08-18 09:06:53</sys_updated_on>
+        <value>application_state=saved</value>
         <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=771a79428388521066f5f4a6feaad369"/>
@@ -834,9 +1321,316 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=771a79428388521066f5f4a6feaad369"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=771a79428388521066f5f4a6feaad369"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update-Employee-Application-State">271a79428388521066f5f4a6feaad334</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 12:49:27</sys_created_on>
+        <sys_id>7e5aa61283c4121066f5f4a6feaad3df</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 12:49:27</sys_updated_on>
+        <ui_id>360e9a28-2fa3-4acf-b72c-d72cc600f730</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7e5aa61283c4121066f5f4a6feaad3df"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7e5aa61283c4121066f5f4a6feaad3df</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 12:49:27</sys_created_on>
+        <sys_id>3e5aa61283c4121066f5f4a6feaad3e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 12:49:27</sys_updated_on>
+        <value>added_skills_and_work_experience=true</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7e5aa61283c4121066f5f4a6feaad3df</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 12:49:27</sys_created_on>
+        <sys_id>fe5aa61283c4121066f5f4a6feaad3e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 12:49:27</sys_updated_on>
+        <value>x_869126_empobsys_employee</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7e5aa61283c4121066f5f4a6feaad3df"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>7e5aa61283c4121066f5f4a6feaad3df</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 12:49:27</sys_created_on>
+        <sys_id>f65aa61283c4121066f5f4a6feaad3e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 12:49:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7e5aa61283c4121066f5f4a6feaad3df</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 12:49:27</sys_created_on>
+        <sys_id>365aa61283c4121066f5f4a6feaad3e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 12:49:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7e5aa61283c4121066f5f4a6feaad3df</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 12:49:27</sys_created_on>
+        <sys_id>ba5aa61283c4121066f5f4a6feaad3e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 12:49:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7e5aa61283c4121066f5f4a6feaad3df"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7e5aa61283c4121066f5f4a6feaad3df"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update-Employee-Application-State">271a79428388521066f5f4a6feaad334</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>fcea768f-11a1-457b-8c14-e39072ff416d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:56</sys_created_on>
+        <sys_id>fe5a5d1a8300121066f5f4a6feaad3d2</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 12:49:27</sys_updated_on>
+        <ui_id>7c348a77-41dc-4985-b144-113398f87943</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fe5a5d1a8300121066f5f4a6feaad3d2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fe5a5d1a8300121066f5f4a6feaad3d2</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:56</sys_created_on>
+        <sys_id>3a5a5d1a8300121066f5f4a6feaad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:56</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fe5a5d1a8300121066f5f4a6feaad3d2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:56</sys_created_on>
+        <sys_id>fa5a5d1a8300121066f5f4a6feaad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:56</sys_updated_on>
+        <value>x_869126_empobsys_employee</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fe5a5d1a8300121066f5f4a6feaad3d2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>fe5a5d1a8300121066f5f4a6feaad3d2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:56</sys_created_on>
+        <sys_id>325a5d1a8300121066f5f4a6feaad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:c3ec2bc0-c567-445c-aa32-89f0fb79fc90}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:c3ec2bc0-c567-445c-aa32-89f0fb79fc90}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Employee Record &amp;gt; First Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_c3ec2bc0-c567-445c-aa32-89f0fb79fc90" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:72924df0-ace7-47a4-bb09-e837840aa7f7}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:72924df0-ace7-47a4-bb09-e837840aa7f7}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Employee Record &amp;gt; Last Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Last Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_72924df0-ace7-47a4-bb09-e837840aa7f7" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;Thank you for your application to the post of&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:14fe135e-2ab7-4b97-9108-df003712e254}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:14fe135e-2ab7-4b97-9108-df003712e254}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Employee Record &amp;gt; Position"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Position&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_14fe135e-2ab7-4b97-9108-df003712e254" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;strong&gt;&lt;em&gt;&lt;span style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;Note: Please fill the Skills and Work Experience details from the related fields, If already done please ignore this note.&lt;/span&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;Yours Sincerely,&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;OnBoard System.&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>fe5a5d1a8300121066f5f4a6feaad3d2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:56</sys_created_on>
+        <sys_id>b65a5d1a8300121066f5f4a6feaad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.number}} | Application Submitted Successfully</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>fe5a5d1a8300121066f5f4a6feaad3d2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:56</sys_created_on>
+        <sys_id>ba5a5d1a8300121066f5f4a6feaad3d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>fe5a5d1a8300121066f5f4a6feaad3d2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:56</sys_created_on>
+        <sys_id>7e5a5d1a8300121066f5f4a6feaad3d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>fe5a5d1a8300121066f5f4a6feaad3d2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:56</sys_created_on>
+        <sys_id>f25a5d1a8300121066f5f4a6feaad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fe5a5d1a8300121066f5f4a6feaad3d2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fe5a5d1a8300121066f5f4a6feaad3d2"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=271a79428388521066f5f4a6feaad334"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=271a79428388521066f5f4a6feaad334"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=271a79428388521066f5f4a6feaad334"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=271a79428388521066f5f4a6feaad334^sys_idNOT IN2e67b9de8380121066f5f4a6feaad315"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">586739de8380121066f5f4a6feaad385</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update-Employee-Application-State">271a79428388521066f5f4a6feaad334</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 09:06:53</sys_created_on>
+        <sys_id>2e67b9de8380121066f5f4a6feaad315</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 12:49:27</sys_updated_on>
+        <ui_id>fcea768f-11a1-457b-8c14-e39072ff416d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2e67b9de8380121066f5f4a6feaad315"/>
+    <sys_element_mapping action="delete_multiple" query="id=2e67b9de8380121066f5f4a6feaad315"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>2e67b9de8380121066f5f4a6feaad315</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 09:06:53</sys_created_on>
+        <sys_id>2667b9de8380121066f5f4a6feaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 09:06:53</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.added_skills_and_work_experience}}=true</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2e67b9de8380121066f5f4a6feaad315"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2e67b9de8380121066f5f4a6feaad315"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=271a79428388521066f5f4a6feaad334^sys_idNOT IN3a5a5d1a8300121066f5f4a6feaad3e6,765a5d1a8300121066f5f4a6feaad3e6,fa5a5d1a8300121066f5f4a6feaad3e6"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>271a79428388521066f5f4a6feaad334</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.position}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:56</sys_created_on>
+        <sys_id>3a5a5d1a8300121066f5f4a6feaad3e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:56</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>14fe135e-2ab7-4b97-9108-df003712e254</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>271a79428388521066f5f4a6feaad334</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:56</sys_created_on>
+        <sys_id>765a5d1a8300121066f5f4a6feaad3e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:56</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c3ec2bc0-c567-445c-aa32-89f0fb79fc90</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>271a79428388521066f5f4a6feaad334</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-18 06:59:56</sys_created_on>
+        <sys_id>fa5a5d1a8300121066f5f4a6feaad3e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Employee Onboarding System">88e438f18300121066f5f4a6feaad3a8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-18 06:59:56</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>72924df0-ace7-47a4-bb09-e837840aa7f7</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=271a79428388521066f5f4a6feaad334"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_271a79428388521066f5f4a6feaad334^sys_idNOT INbb1a79428388521066f5f4a6feaad355,f71a79428388521066f5f4a6feaad35d"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -898,18 +1692,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"371a79428388521066f5f4a6feaad378","name":"plan","plan_signature":null}}</plan>
         <plan_id>aac9bd028388521066f5f4a6feaad3c8</plan_id>
-        <snapshot>687a71828388521066f5f4a6feaad334</snapshot>
+        <snapshot>c89a2e1283c4121066f5f4a6feaad3bc</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-17 14:40:15</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>371a79428388521066f5f4a6feaad378</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-17 14:40:15</sys_updated_on>
-        <trigger display_value="">f31a79428388521066f5f4a6feaad376</trigger>
+        <sys_updated_on>2024-08-18 12:49:28</sys_updated_on>
+        <trigger display_value="">b667b9de8380121066f5f4a6feaad369</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=aac9bd028388521066f5f4a6feaad3c8"/>
 </record_update>

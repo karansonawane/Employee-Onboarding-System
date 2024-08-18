@@ -10,6 +10,7 @@
             <choice>
                 <element inactive_on_update="false" label="On Boarding" sequence="7" value="on_boarding"/>
                 <element inactive_on_update="false" label="Hold" sequence="3" value="hold"/>
+                <element inactive_on_update="false" label="Saved" sequence="9" value="saved"/>
                 <element inactive_on_update="false" label="Background Verification" sequence="6" value="background_verification"/>
                 <element inactive_on_update="false" label="Interview" sequence="5" value="interview"/>
                 <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
